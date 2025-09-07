@@ -1,0 +1,84 @@
+body {
+    background-color: purple;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    justify-items: center;
+    background: rgba(4, 109, 100, 0.795);
+    display: flex; 
+    box-shadow: inset;
+}
+.countainer input {
+    background: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 2px;
+    border: solid;
+    border-radius: 10px;
+}
+.countainer input[type="submit"] {
+    background: salmon;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 0;
+}
+#kk {
+    transition: transform 0.1s;ease-in-out
+    cursor: pointer;
+    padding: 12px 24px;
+    color: red;
+    box-shadow: 0 4px 6px;
+}
+#kk:active {
+    transform: scale(0.5);
+}
+#pass {
+    cursor: pointer;
+    padding: 12px 24px;
+    color: gray;
+    box-shadow: 0 4px 6px;
+    border-radius: 8px
+    background: darkslategray;
+}
+#pass:active {
+    transform: scale(0.4)
+}
+#ass {
+    cursor: pointer;
+    padding: 12px 24px;
+    color: gray;
+    box-shadow: 0 4px 6px;
+    border-radius: 8px
+    background: darkslategray;
+
+}
+#ass:active {
+    transform: scale(0.4);
+}
+#ss { transition: transform 0.1s;ease-in-out
+    cursor: pointer;
+    padding: 12px 24px;
+    color: gray;
+    box-shadow: 0 4px 6px;
+    border-radius: 8px
+    background: darkslategray;
+
+
+}
+#ss:active {
+    transform: scale(0.4);
+}
+#fil { transition: transform 0.1s;ease-in-out
+    cursor: pointer;
+    padding: 12px 24px;
+    color: gray;
+    box-shadow: 0 4px 6px;
+    border-radius: 8px
+    background: darkslategray;
+
+}
+#fil:active {
+    transform: scale(0.9);
+}
